@@ -1,4 +1,4 @@
-# small school project, I'm making a Portfolio app in react.js
+# Small school project, I'm making a Portfolio app in react.js
 
 # Getting Started with Create React App
 
