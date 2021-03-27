@@ -1,0 +1,35 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 180px;
+  margin-left: 50px;
+  z-index: 1;
+}
+/* .product_info {
+  margin-top: 5px;
+} */
+/* .about_about {
+  height: 100px;
+  margin-bottom: 15px;
+} */
+Pic_div {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+.profile_pic {
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+}
+.about_me {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-top: -80px;
+}
+/* background-color: #f3f3f3; */
