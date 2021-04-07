@@ -26,9 +26,9 @@ import React from "react";
             <h4 className="">Education</h4>
           </div>
         </Link>
-        <Link to="/Skills">
-          <div className="header_option">
-            <h4 className="">Skills</h4>
+        <Link to="/hobbies">
+          <div className="  hobbie">
+            <h4 className="">Hobbies</h4>
           </div>
         </Link>
       </div>
