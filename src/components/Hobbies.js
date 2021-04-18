@@ -9,15 +9,13 @@ function Hobbies(props) {
 
   const getPokemonAsync = () => {
     try {
-      console.log("goood  ");
-      getPokemonData(type).then((response) => setPokemon(response.data));
+       getPokemonData(type)
+       .then((response) => setPokemon(response.data));
+      // console.log(pokemon.name);
+      // console.log(pokemon.sprites.front_default);
 
-      console.log(pokemon.name);
-      console.log(pokemon.sprites.front_default);
-
-      console.log("goood  ");
-    } catch (e) {
-      console.log("Error man");
+     } catch (e) {
+      console.log("Error: Something went wrong");
     }
   };
 
@@ -42,8 +40,7 @@ function Hobbies(props) {
         <img src={pokemon.sprites.front_default} alt=""></img>
 
         <h3>Pokemon Name: {pokemon.name}</h3>
-        <div> {/* <img src={pokemon.sprites.front_default} alt="" /> */}</div>
-      </div>
+       </div>
     </div>
   );
 }
