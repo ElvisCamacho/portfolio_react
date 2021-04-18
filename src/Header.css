@@ -1,5 +1,5 @@
 .header {
-  height: 60px;
+  height: 120px;
   display: flex;
   align-items: center;
   background-color: #131921;
@@ -68,14 +68,14 @@
   margin-left: 10px;
   margin-right: 10px;
   color: white;
+  font-size: 2rem;
 }
-.hobbie {
-  background-color: red;
-  display: flex;
+/* .hobbie {
+   display: flex;
   width: 100px;
   height: 60px;
   justify-content: center;
   width: 100%;
   padding-bottom: -5px;
   color: white;
-}
+} */

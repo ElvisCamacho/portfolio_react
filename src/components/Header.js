@@ -27,7 +27,7 @@ import React from "react";
           </div>
         </Link>
         <Link to="/hobbies">
-          <div className="  hobbie">
+          <div className="  header_option">
             <h4 className="">Hobbies</h4>
           </div>
         </Link>

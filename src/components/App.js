@@ -5,6 +5,8 @@ import Home from "./Home";
 import About from "./About";
 import about from "../about";
 import Hobbies from "./Hobbies";
+import Work from "./Work";
+import Education from "./Education";
 
 function createAbout(about) {
   return (
@@ -25,6 +27,16 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/education" component={Education}>
+            <Header />
+            <Education />
+          </Route>
+
+          <Route path="/work" component={Work}>
+            <Header />
+            <Work />
+          </Route>
+
           <Route path="/hobbies" component={Hobbies}>
             <Header />
             <Hobbies />
@@ -33,17 +45,9 @@ function App() {
           <Route path="/about" component={About}>
             <Header />
             {about.map(createAbout)}
-            {/* <About
-              about={about[0].about}
-              firstParagraph={about[0].firstParagraph}
-              lastParagraph={about[0].lastParagraph}
-              contactME={about[0].contactME}
-              email={about[0].email}
-              telefone={about[0].telefone}
-            />*/}
           </Route>
 
-          <Route path="/" component={Home}>
+          <Route exact path="/" component={Home}>
             <Header />
             <Home />
           </Route>
